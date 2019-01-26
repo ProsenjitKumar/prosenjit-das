@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.utils.text import slugify
 
 
 # *************** simple blog start ************************
@@ -13,6 +14,11 @@ class EntryQuerySet(models.QuerySet):
 
 class BlogCategory(models.Model):
     title = models.CharField(max_length=255, null=True)
+    slug = models.SlugField()
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super(BlogCategory, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.title
@@ -24,8 +30,12 @@ class BlogPost(models.Model):
     description = models.TextField()
     post_date = models.DateTimeField(auto_now_add=True)
     publish = models.BooleanField(default=True)
-    slug = models.SlugField(max_length=200, unique=True)
     objects = EntryQuerySet.as_manager()
+    slug = models.SlugField()
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super(BlogPost, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.title
@@ -46,8 +56,12 @@ class QuestionPost(models.Model):
     description = models.TextField()
     post_date = models.DateTimeField(auto_now_add=True)
     publish = models.BooleanField(default=True)
-    slug = models.SlugField(max_length=200, unique=True)
     objects = EntryQuerySet.as_manager()
+    slug = models.SlugField()
+
+    def save(self, *args, **kwargs):
+        self.slug = slugify(self.title)
+        super(QuestionPost, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.title

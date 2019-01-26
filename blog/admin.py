@@ -7,6 +7,7 @@ class BlogCategoryAdmin(admin.ModelAdmin):
     list_filter = ['title']
     list_display = ['title']
     list_per_page = 15
+    prepopulated_fields = {'slug': ('title',)}
 
 
 admin.site.register(BlogCategory, BlogCategoryAdmin)
@@ -17,6 +18,7 @@ class BlogPostAdmin(admin.ModelAdmin):
     list_filter = ['title']
     list_display = ['title']
     list_per_page = 15
+    prepopulated_fields = {'slug': ('title',)}
 
 
 admin.site.register(BlogPost, BlogPostAdmin)
@@ -27,6 +29,7 @@ class QuestionPostAdmin(admin.ModelAdmin):
     list_filter = ['title']
     list_display = ['title']
     list_per_page = 15
+    prepopulated_fields = {'slug': ('title',)}
 
 
 admin.site.register(QuestionPost, QuestionPostAdmin)
