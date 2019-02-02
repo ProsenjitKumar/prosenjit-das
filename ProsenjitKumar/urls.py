@@ -34,6 +34,7 @@ sitemaps = {
 
 urlpatterns = [
     path('prosenjit-admin/', admin.site.urls),
+    path('ckeditor/', include('ckeditor_uploader.urls')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}),
     path('', include('portfolio.urls')),
     path('', include('blog.urls', namespace='slug')),

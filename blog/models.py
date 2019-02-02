@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
 from django.utils.text import slugify
+from ckeditor.fields import RichTextField
 
 
 # *************** simple blog start ************************
@@ -27,7 +28,7 @@ class BlogCategory(models.Model):
 class BlogPost(models.Model):
     title = models.CharField(max_length=255, blank=False)
     category = models.ForeignKey(BlogCategory, on_delete=models.CASCADE)
-    description = models.TextField()
+    description = RichTextField()
     post_date = models.DateTimeField(auto_now_add=True)
     publish = models.BooleanField(default=True)
     objects = EntryQuerySet.as_manager()
