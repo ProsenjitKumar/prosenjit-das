@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/templates/blog/blog-post-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/blog-post-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/blog-single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/blog-single-post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,24 +42,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/blog-post-list.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="11" column="117" selection-start-line="11" selection-start-column="117" selection-end-line="11" selection-end-column="117" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#269#302#0#HTML" expanded="true" />
-                <element signature="e#366#403#0#HTML" expanded="true" />
+                <element signature="e#585#618#0#HTML" expanded="true" />
+                <element signature="e#679#699#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/blog-single-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="192">
+              <caret line="57" column="92" selection-start-line="57" selection-start-column="92" selection-end-line="57" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,8 +136,8 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/ProsenjitKumar/urls.py" />
         <option value="$PROJECT_DIR$/templates/blog/base/base_blog.html" />
-        <option value="$PROJECT_DIR$/templates/blog/blog-single-post.html" />
         <option value="$PROJECT_DIR$/templates/blog/blog-post-list.html" />
+        <option value="$PROJECT_DIR$/templates/blog/blog-single-post.html" />
       </list>
     </option>
   </component>
@@ -313,12 +318,12 @@
       <workItem from="1549088916415" duration="2051000" />
       <workItem from="1549341909838" duration="1652000" />
       <workItem from="1557133656922" duration="186000" />
-      <workItem from="1557141483437" duration="2029000" />
+      <workItem from="1557141483437" duration="3166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164471000" />
+    <option name="totallyTimeSpent" value="165608000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -640,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blog/blog-single-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -694,10 +692,21 @@
     <entry file="file://$PROJECT_DIR$/templates/blog/blog-post-list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="117" selection-start-line="11" selection-start-column="117" selection-end-line="11" selection-end-column="117" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#269#302#0#HTML" expanded="true" />
-            <element signature="e#366#403#0#HTML" expanded="true" />
+            <element signature="e#585#618#0#HTML" expanded="true" />
+            <element signature="e#679#699#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog/blog-single-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="57" column="92" selection-start-line="57" selection-start-column="92" selection-end-line="57" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

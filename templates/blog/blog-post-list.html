@@ -9,20 +9,20 @@
 {% block blog_content %}
 
 
-	<section class="blog-area section" style="background: linear-gradient(#f7f3fa, #c1d6d3)">
+	<section class="blog-area section" style="background: linear-gradient(rgba(247,243,250,0.73), #a4b8b8)">
 		<div class="container">
 
-			<div class="row" style="background: linear-gradient(purple, #0b7326)">
+			<div class="row">
 
                 {% for object in object_list %}
 
 				<div class="col-lg-4 col-md-6">
 					<div class="card h-100">
-						<div class="single-post post-style-1">
+						<div class="single-post post-style-1" style="background: linear-gradient(purple, #0b7326)">
 
 							<div class="blog-info">
 
-								<h4 class="title"><a href="{% url 'blog:blog_details' object.id object.slug %}"><b>{{ object.title }}</b></a></h4>
+								<h4 class="title" style="color: #cb860f"><a href="{% url 'blog:blog_details' object.id object.slug %}"><b>{{ object.title }}</b></a></h4>
 							</div><!-- blog-info -->
 						</div><!-- single-post -->
 					</div><!-- card -->
