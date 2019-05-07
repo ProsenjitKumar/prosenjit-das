@@ -29,20 +29,20 @@ DEBUG = True
 ALLOWED_HOSTS = ['prosenjit-das']
 
 # Email Backend
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'prosenjitdas'
-EMAIL_HOST_PASSWORD = '#Learning123'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-
-# # https://www.google.com/settings/security/lesssecureapps
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'kumarisamolirani@gmail.com'
-# EMAIL_HOST_PASSWORD = '#samoli123'
+# EMAIL_HOST = 'smtp.sendgrid.net'
+# EMAIL_HOST_USER = 'prosenjitdas'
+# EMAIL_HOST_PASSWORD = '#Learning123'
 # EMAIL_PORT = 587
 # EMAIL_USE_TLS = True
+
+# # https://www.google.com/settings/security/lesssecureapps
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'kumarisamolirani@gmail.com'
+EMAIL_HOST_PASSWORD = '#samoli123'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
 
 
 # SITE_ID = 1
