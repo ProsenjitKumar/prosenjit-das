@@ -48,14 +48,14 @@
 			<div class="src-area">
 				<form method="get" action="{% url 'blog:home_blog' %}">
 					<button class="src-btn" type="submit" value='{{ request.GET.q }}'><i class="ion-ios-search-strong"></i></button>
-					<input class="src-input" name='q' type="text" placeholder="Type of search">
+					<input style="background: linear-gradient(rgba(247,243,250,0.73), #a4b8b8)" class="src-input" name='q' type="text" placeholder="Type of search">
 				</form>
 			</div>
 
 		</div><!-- conatiner -->
 	</header>
 
-	<section class="post-area section" style="background: linear-gradient(#f8fff4, #0d5a12)">
+	<section class="post-area section" style="background: linear-gradient(rgba(247,243,250,0.73), #a4b8b8)">
 		<div class="container">
 
 			<div class="row">
@@ -171,7 +171,8 @@
 
 						<a class="logo" href="#"><img src="{% static 'blog/images/prosenjit.ico' %}" alt="Logo Image"></a>
 						<p class="copyright">Blog @ 2017. All rights reserved.</p>
-						<p class="copyright">Developed by <a href="http://prosenjit-das.herokuapp.com/portfolio/" target="_blank">Prosenjit Das</a></p>
+						<p class="copyright">Developed by <a href="http://prosenjit-das.herokuapp.com/portfolio/" target="_blank">Prosenjit Das |
+                        Powered By Django</a></p>
 						<ul class="icons">
 							<li><a href="#"><i class="ion-social-facebook-outline"></i></a></li>
 							<li><a href="#"><i class="ion-social-twitter-outline"></i></a></li>
@@ -185,7 +186,7 @@
 
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-section">
-						<h4 class="title"><b>CATAGORIES</b></h4>
+						<h4 class="title"><b>Categories</b></h4>
 						<ul>
 							<li><a href="#">Engineering</a></li>
 							<li><a href="#">Science</a></li>

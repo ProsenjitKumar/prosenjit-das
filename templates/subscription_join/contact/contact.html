@@ -7,11 +7,26 @@
 
 {% block blog_content %}<br>
 
+    <style>
+        .btn {
+        padding: 7px 20px;
+        font-size: 24px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background: linear-gradient(purple, #0b7326);
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 9px #8d8f9d;
+    }
+    </style>
+
     <!-- CSS link relation -->
     <link href="{% static 'blog/css/social-icon.css' %}" rel="stylesheet">
 
     <!-- Contact Form -->
-    <div class="container">
+    <div class="container" style="background: linear-gradient(rgba(247,243,250,0.73), #a4b8b8)">
         <div class="row">
             <div class="col-md-12">
                 <form method="post" novalidate>
@@ -30,25 +45,25 @@
                       </div>
                     </div>
                     {{ form.cc_myself|as_crispy_field }}
-                    <button type="submit" class="btn btn-primary">Send</button>
+                    <button type="submit" class="btn">Send</button>
                 </form>
             </div>
-        </div>
+        </div><br>
     </div><br>
 
     <!-- Contact Info -->
-    <div class="container">
+    <div class="container" style="background: linear-gradient(rgba(247,243,250,0.73), #a4b8b8)">
         <div class="row">
             <div class="col-md-12">
                 <strong><p style="font-size: 25px">Email: prosenjitearnkumar@gmail.com</p></strong>
                 <strong><p style="font-size: 25px">Contact Number: +8801987045083</p></strong>
                 <strong><p style="font-size: 25px">Skype Live: prosenjitearnkumar</p></strong>
             </div>
-        </div>
+        </div><br>
     </div><br>
 
     <!-- Social Media -->
-  <div class="container">
+  <div class="container" style="background: linear-gradient(rgba(247,243,250,0.73), #a4b8b8)">
        <div class="row">
         <br/><br/>
             <div class="col-md-12">
@@ -60,11 +75,11 @@
                 <a href="https://twitter.com/kumarprosenjit1" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.youtube.com/channel/UCMV-V1jyLz8sdva_tnsOvKA" target="_blank" class="btn-social btn-youtube"><i class="fa fa-youtube"></i></a>
             </div>
-       </div>
+       </div><br>
     </div><br><br>
 
         <!-- Google Map My Location -->
-    <div class="container">
+    <div class="container" >
         <div class="row">
             <div class="col-md-12">
                 <div id="map" style="width: 100%; height: 500px; border: #4cae4c;">
@@ -81,7 +96,7 @@
                     </script>
                 </div>
             </div>
-        </div>
+        </div><br>
     </div>
 
 
