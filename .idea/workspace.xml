@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f88859b9-42c5-431a-8ee8-102d0f0f7040" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/HerokuApp--prosenjit-das--My-Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HerokuApp--prosenjit-das--My-Blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProsenjitKumar/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2240">
+            <state relative-caret-position="2100">
               <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
               <folding>
                 <element signature="e#315#335#0" expanded="true" />
@@ -44,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/blog/blog-single-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2784">
+            <state relative-caret-position="2610">
               <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
             </state>
           </provider>
@@ -53,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/blog/blog-post-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+            <state relative-caret-position="450">
+              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#1548#1570#0#HTML" expanded="true" />
               </folding>
@@ -336,11 +338,13 @@
       <workItem from="1557196112033" duration="4056000" />
       <workItem from="1557225824788" duration="598000" />
       <workItem from="1557236044246" duration="146000" />
+      <workItem from="1558088734247" duration="222000" />
+      <workItem from="1558327615656" duration="214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170851000" />
+    <option name="totallyTimeSpent" value="171287000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -355,7 +359,7 @@
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.19652061" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.18934532" />
       <window_info id="Structure" order="1" sideWeight="0.50067294" side_tool="true" weight="0.19265464" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -369,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32974428" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006443" side_tool="true" weight="0.32166892" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49935567" visible="true" weight="0.23369566" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49935567" weight="0.31132075" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -698,7 +702,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProsenjitKumar/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2240">
+        <state relative-caret-position="2100">
           <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
           <folding>
             <element signature="e#315#335#0" expanded="true" />
@@ -708,15 +712,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/blog-single-post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2784">
+        <state relative-caret-position="2610">
           <caret line="174" column="41" selection-start-line="174" selection-start-column="41" selection-end-line="174" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog/blog-post-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="49" column="79" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
+        <state relative-caret-position="450">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#1548#1570#0#HTML" expanded="true" />
           </folding>
